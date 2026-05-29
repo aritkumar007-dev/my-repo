@@ -2,6 +2,8 @@
 
 # Import the Saya AI module
 from saya import SayaAI
+import pyautogui
+
 
 # Initialize the AI agent
 agent = SayaAI(api_key='YOUR_API_KEY_HERE')
