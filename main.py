@@ -4,6 +4,8 @@
 from saya import SayaAI
 import pyautogui
 
+pyautogui.write("test gui", interval=1)
+pyautogui.press('enter')
 
 # Initialize the AI agent
 agent = SayaAI(api_key='YOUR_API_KEY_HERE')
